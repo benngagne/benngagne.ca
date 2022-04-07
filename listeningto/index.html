@@ -1,0 +1,34 @@
+<!--
+made with <3
+copyright 2022 benn
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FF2E63">
+    <title>what am i listening to?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="listeningto.css">
+</head>
+<body>
+    <div class="music-container">
+        <div class="focus-in">
+            <h1>what am i currently listening to?</h1><br />
+            <img src="" class="albumart" id="art" onclick="playAudio()">
+            <div class="trackinfo">
+                <p id="track">track: nothing :(</p>
+                <p id="album">album:</p>
+                <p id="artists">artist(s):</p><br/><br/>
+                <p style="font-size: .8em" id="previewhint">**click album art for preview**</p>
+                <p style="font-size: .6em" id="datetime"></p>
+            </div>
+        </div>
+    </div>
+    <p class="footer focus-in">powered by: <a href="https://github.com/benngagne/bennspotify-api" target="_blank" rel="noopener noreferrer">bennspotify api</a></p>
+    <script type="text/javascript" src="spotify.js"></script>
+</body>
+</html>
